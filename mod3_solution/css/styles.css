@@ -1,0 +1,54 @@
+#nav{
+	background-color: grey;
+}
+#navh1{
+	color: #ffffff
+}
+
+.row > h1 {
+  margin-bottom: 15px;
+  text-align: center;  
+  font-family: Helvetica
+  font-size:1.75em;
+}
+
+#Chicken{
+	color: #000000;
+	text-align:center;
+}
+
+#tall{
+	background-color: grey;
+}
+
+#navbutton{
+	color: white;
+}
+
+
+
+/********** Medium devices only **********/
+
+/********** Small devices only **********/
+@media (min-width: 768px) {
+		#nav-list{
+			visibility: false;
+		}
+		
+
+	}
+	@media (max-width: 767px) {
+		#collapsable-nav {
+		padding:0;
+		background-color: white;
+
+		}
+		#nav-list > li {
+			text-align: center;
+			background-color: white;
+			
+		}
+	}
+
+
+
