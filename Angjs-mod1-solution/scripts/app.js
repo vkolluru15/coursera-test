@@ -13,7 +13,7 @@ lunchMwnuController.$inject = ['$scope'];
   $scope.message = "";
   $scope.checkQuantity = function () {  	
   	if($scope.items == ""){  		
-  		$scope.message = "";
+  		$scope.message = "Please enter the data first";
   	}else{
   	var menuItems = $scope.items.trim().split(',');
   	if(menuItems.length <=3 && menuItems.length >= 1 ){
