@@ -1,0 +1,11 @@
+.Error{	
+	color : red;
+	border-color: red;
+}
+.Good{	
+	color : green;
+	border-color: green;
+}
+.Bad{	
+	color : red;
+}
